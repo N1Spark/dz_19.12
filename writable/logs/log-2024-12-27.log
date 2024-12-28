@@ -1,0 +1,73 @@
+CRITICAL - 2024-12-27 13:34:55 --> ErrorException: file_put_contents(writable/uploads/registration_data.txt): Failed to open stream: No such file or directory
+[Method: POST, Route: registration]
+in APPPATH\Controllers\Home.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Home.php(22): file_put_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\nginx\\html\\ci4\\public\\index.php')
+CRITICAL - 2024-12-27 13:37:02 --> ErrorException: file_put_contents(public/uploads/registration_data.txt): Failed to open stream: No such file or directory
+[Method: POST, Route: registration]
+in APPPATH\Controllers\Home.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Home.php(22): file_put_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\nginx\\html\\ci4\\public\\index.php')
+CRITICAL - 2024-12-27 13:38:05 --> ErrorException: file_put_contents(D:\nginx\html\ci4\app\Controllers/public/uploads/registration_data.txt): Failed to open stream: No such file or directory
+[Method: POST, Route: registration]
+in APPPATH\Controllers\Home.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Home.php(22): file_put_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\nginx\\html\\ci4\\public\\index.php')
+CRITICAL - 2024-12-27 13:38:46 --> ErrorException: file_put_contents(../D:\nginx\html\ci4\app\Controllers/public/uploads/registration_data.txt): Failed to open stream: No such file or directory
+[Method: POST, Route: registration]
+in APPPATH\Controllers\Home.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Home.php(22): file_put_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\nginx\\html\\ci4\\public\\index.php')
+CRITICAL - 2024-12-27 13:40:41 --> ErrorException: file_put_contents(D:\nginx\html\ci4\app\Controllers\public\uploads\registration_data.txt): Failed to open stream: No such file or directory
+[Method: POST, Route: registration]
+in APPPATH\Controllers\Home.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Home.php(22): file_put_contents()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\nginx\\html\\ci4\\public\\index.php')
+CRITICAL - 2024-12-27 13:44:19 --> ParseError: syntax error, unexpected variable "$file", expecting ")"
+[Method: POST, Route: registration]
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\nginx\\html\\ci4\\public\\index.php')
